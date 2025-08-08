@@ -1,0 +1,49 @@
+{
+  "name": "vite",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm run -C main dev",
+    "dev:remote": "pnpm run -C packages/remote dev",
+    "preview": "pnpm run -C main preview",
+    "preview:remote": "pnpm run -C packages/remote preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^4.0.8",
+    "dayjs": "^1.11.9",
+    "vite-plugin-externals": "^0.6.2",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@rollup/plugin-inject": "^5.0.5",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/node": "^20.4.2",
+    "@vitejs/plugin-legacy": "^5.4.2",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "cross-env": "^7.0.3",
+    "hel-dev-utils": "^5.2.6",
+    "hel-iso": "^4.4.0",
+    "hel-lib-proxy": "^4.11.0",
+    "hel-micro": "^4.12.2",
+    "hel-micro-core": "^4.12.1",
+    "hel-types": "^4.3.1",
+    "htmlparser2": "^9.0.0",
+    "sass": "1.79.1",
+    "typescript": "^5.0.4",
+    "unocss": "^0.62.4",
+    "vite": "^5.4.16",
+    "vite-plugin-html": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=18.12.1",
+    "pnpm": ">=7.18.2"
+  },
+  "browserslist": [
+    "defaults",
+    "not dead",
+    "not IE 11",
+    "chrome 72"
+  ]
+}
